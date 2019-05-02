@@ -53,16 +53,16 @@ li {
 }
 .projects {
     display: grid;
-    margin: 10px auto;
     grid-row-gap: 40px;
     background-size: cover;
     background-position: center;
+    margin: 10px auto;
 }
 .project-one {
     display: grid;
     justify-content: center;
     align-items: center;
-    background-image: url(/Users/ellisonrio/sei/sandbox/ellisonr.github.io/dash-project-1.jpg);
+    background-image: url(dash-project-1.jpg);
     height: 400px;
     width: 700px;
     grid-row: 1;
@@ -73,7 +73,7 @@ li {
     display: grid;
     justify-content: center;
     align-items: center;
-    background-image: url(/Users/ellisonrio/sei/sandbox/ellisonr.github.io/dash-project-2.jpg);
+    background-image: url(dash-project-2.jpg);
     height: 400px;
     width: 700px;
     grid-row: 1;
@@ -84,7 +84,7 @@ li {
     display: grid;
     justify-content: center;
     align-items: center;
-    background-image: url(/Users/ellisonrio/sei/sandbox/ellisonr.github.io/dash-project-3.jpg);
+    background-image: url(dash-project-3.jpg);
     height: 400px;
     width: 700px;
     grid-row: 2;
@@ -95,7 +95,7 @@ li {
     display: grid;
     justify-content: center;
     align-items: center;
-    background-image: url(/Users/ellisonrio/sei/sandbox/ellisonr.github.io/airbnb-project.jpg);
+    background-image: url(airbnb-project.jpg);
     height: 400px;
     width: 700px;
     grid-row: 2;
@@ -106,7 +106,7 @@ li {
     display: grid;
     justify-content: center;
     align-items: center;
-    background-image: url(/Users/ellisonrio/sei/sandbox/ellisonr.github.io/wendybite-project.jpg);
+    background-image: url(wendybite-project.jpg);
     height: 400px;
     width: 700px;
     grid-row: 3;
