@@ -2,7 +2,7 @@ body {
     background-color: #979493;
     display: grid;
     grid-template-columns: 1;
-    grid-template-rows: repeat(150px 100px 700px 700px 700px 700px 700px 150px);
+    grid-template-rows: 150px 100px 700px 700px 700px 700px 700px 150px);
     margin: 0;
 }
 h1 {
@@ -22,6 +22,7 @@ ul {
     display: grid;
     grid-template-rows: 3fr;
     grid-template-columns: 50% 50%;
+    color: white;
 }
 li {
     display: grid;
