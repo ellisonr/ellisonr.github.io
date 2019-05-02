@@ -142,6 +142,9 @@ footer {
     grid-column: 1;
     grid-row: 1;
 }
+a {
+    text-decoration: none;
+}
 a:link {
     color: #ffffff;
 }
@@ -150,10 +153,4 @@ a:visited {
 }
 a:hover {
     color: #80ff80;
-}
-li:hover {
-    color: #80ff80;
-}
-a {
-    text-decoration: none;
 }
