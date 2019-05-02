@@ -151,3 +151,9 @@ a:visited {
 a:hover {
     color: #80ff80;
 }
+li:hover {
+    color: #80ff80;
+}
+a {
+    text-decoration: none;
+}
