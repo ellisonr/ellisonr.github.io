@@ -1,8 +1,24 @@
+body {
+    background-color: #979493;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 100px 50px 300px 300px 50px;
+}
 h1 {
-
+    font-family: 'Barlow Condensed', sans-serif;
+    background-color: #51504F;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-row: 1;
+    grid-column: 2;
 }
 nav {
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-row: 2;
+    grid-column: 2;
 }
 ul {
 
@@ -10,25 +26,56 @@ ul {
 li {
     list-style-type: none;
     display: inline;
+    font-family: 'Tulpen One', cursive;
 }
 .projects {
-
+    font-family: 'Poiret One', cursive;
 }
 .project-one {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/Users/ellisonrio/sei/sandbox/ellisonr.github.io/dash-project-1.jpg);
+    height: 300px;
+    width: 450px;
+    background-size: cover;
 }
 .project-two {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/Users/ellisonrio/sei/sandbox/ellisonr.github.io/dash-project-2.jpg);
+    height: 300px;
+    width: 450px;
+    background-size: cover;
 }
 .project-three {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/Users/ellisonrio/sei/sandbox/ellisonr.github.io/dash-project-3.jpg);
+    height: 300px;
+    width: 450px;
+    background-size: cover;
 }
 .project-four {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/Users/ellisonrio/sei/sandbox/ellisonr.github.io/airbnbproject.jpg);
+    height: 300px;
+    width: 450px;
+    background-size: cover;
 }
 .project-five {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/Users/ellisonrio/sei/sandbox/ellisonr.github.io/wendybite-project.jpg);
+    height: 300px;
+    width: 450px;
+    background-size: cover;
 }
 .footer {
-    
+    font-family: 'Tulpen One', cursive;
 }
