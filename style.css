@@ -1,19 +1,13 @@
 body {
     background-color: #979493;
-    display: grid;
-    grid-template-columns: 1;
-    grid-template-rows: 150px 100px 700px 700px 700px 700px 700px 150px);
     margin: 0;
 }
 h1 {
     font-family: 'Barlow Condensed', sans-serif;
     background-color: #51504F;
-    display: grid;
-    justify-content: left;
-    grid-row: 1;
+    text-align: left;
     color: white;
     font-size: 150px;
-    margin-top: 0;
     padding: 5px;
     margin: 0;
 }
@@ -23,10 +17,10 @@ ul {
     grid-template-rows: 3fr;
     grid-template-columns: 50% 50%;
     color: white;
+    grid-row: 1;
 }
 li {
     display: grid;
-    grid-row: 2;
     font-size: 45px;
     list-style-type: none;
     font-family: 'Tulpen One', cursive;
@@ -111,24 +105,27 @@ li {
 }
 footer {
     font-family: 'Tulpen One', cursive;
-    display: grid;
     background-color: #51504F;
     color: white;
     font-size: 30px;
     padding: 10px;
-    grid-template-columns: 2fr;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr;
+    grid-row: 8;
+    height: 40px;
 }
 .footer-right {
     display: grid;
-    justify-content: right;
-    grid-row: 8;
+    justify-content: center;
     grid-column: 2;
+    grid-row: 1;
 }
 .footer-left {
     display: grid;
-    justify-content: left;
-    grid-row: 8;
+    justify-content: center;
     grid-column: 1;
+    grid-row: 1;
 }
 a:link {
     color: white;
