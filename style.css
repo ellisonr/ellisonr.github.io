@@ -3,6 +3,7 @@ body {
     display: grid;
     grid-template-columns: 1;
     grid-template-rows: repeat(150px 100px 700px 700px 700px 700px 700px 150px);
+    margin: 0;
 }
 h1 {
     font-family: 'Barlow Condensed', sans-serif;
