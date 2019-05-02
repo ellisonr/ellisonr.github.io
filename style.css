@@ -17,13 +17,39 @@ h1 {
     padding: 5px;
     margin: 0;
 }
+ul {
+    margin: 5px;
+    display: grid;
+    grid-template-rows: 3fr;
+    grid-template-columns: 50% 50%;
+}
 li {
     display: grid;
-    justify-content: center;
     grid-row: 2;
-    font-size: 40px;
+    font-size: 45px;
     list-style-type: none;
     font-family: 'Tulpen One', cursive;
+    justify-content: center;
+}
+.about {
+    grid-row: 1;
+    grid-column: 1;
+}
+.projectnav {
+    grid-row: 2;
+    grid-column: 1;
+}
+.contact {
+    grid-row: 3;
+    grid-column: 1;
+}
+.resume {
+    grid-row: 1;
+    grid-column: 2;
+}
+.blog {
+    grid-row: 2;
+    grid-column: 2;
 }
 .projects {
     margin: 10px auto;
@@ -85,10 +111,30 @@ li {
 footer {
     font-family: 'Tulpen One', cursive;
     display: grid;
-    justify-content: right;
-    grid-row: 8;
     background-color: #51504F;
     color: white;
     font-size: 30px;
     padding: 10px;
+    grid-template-columns: 2fr;
+}
+.footer-right {
+    display: grid;
+    justify-content: right;
+    grid-row: 8;
+    grid-column: 2;
+}
+.footer-left {
+    display: grid;
+    justify-content: left;
+    grid-row: 8;
+    grid-column: 1;
+}
+a:link {
+    color: white;
+}
+a:visited {
+    color: #3399ff;
+}
+a:hover {
+    color: #80ff80;
 }
