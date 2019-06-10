@@ -52,11 +52,11 @@ li {
     background-size: cover;
     background-position: center;
     margin: 5px auto;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr;
 }
 
-.project-one, .project-two, .project-three, .project-four, .project-five, .project-six{
+.project-one, .project-two, .project-three, .project-four, .project-five, .project-six, .project-seven{
     display: grid;
     justify-content: center;
     align-items: center;
@@ -93,6 +93,11 @@ li {
     background-image: url(office-trivia-project.png);
     grid-row: 3;
     grid-column: 2;
+}
+.project-seven {
+    background-image: url(star-wars-api-project.png);
+    grid-row: 4;
+    grid-column: 1;
 }
 
 footer {
