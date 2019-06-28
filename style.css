@@ -56,7 +56,7 @@ li {
     grid-template-columns: 1fr 1fr;
 }
 
-.project-one, .project-two, .project-three, .project-four, .project-five, .project-six, .project-seven{
+.project-one, .project-two, .project-three, .project-four, .project-five, .project-six, .project-seven, .project-eight{
     display: grid;
     justify-content: center;
     align-items: center;
@@ -98,6 +98,11 @@ li {
     background-image: url(star-wars-api-project.png);
     grid-row: 4;
     grid-column: 1;
+}
+.project-eight{
+    background-image: url(project-3.png);
+    grid-row: 4;
+    grid-column: 2;
 }
 
 footer {
