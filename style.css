@@ -117,19 +117,19 @@ footer {
 	display: grid;
 	justify-content: center;
 	grid-column: 1;
-	padding-top: 2px;
+	padding-top: 3px;
 }
 .footer-two {
 	display: grid;
 	justify-content: center;
 	grid-column: 2;
-	padding-top: 2px;
+	padding-top: 3px;
 }
 .footer-three {
 	display: grid;
 	justify-content: center;
 	grid-column: 3;
-	padding-top: 2px;
+	padding-top: 3px;
 }
 .footer-four {
 	display: grid;
