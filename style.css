@@ -232,8 +232,8 @@ a:hover {
 		font-size: 20px;
 	}
 	.bio-details {
-		font-size: 13px;
-		margin: 10px auto;
+		font-size: 9px;
+		margin: 7px auto;
 	}
 	.header-container {
 		height: 50px;
@@ -244,8 +244,8 @@ a:hover {
 		margin: 10px;
 	}
 	img {
-		width: 150px;
-		height: 93.75px;
+		width: 200px;
+		height: 125px;
 	}
 	.footer {
 		font-size: 12px;
