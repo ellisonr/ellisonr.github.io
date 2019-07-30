@@ -205,8 +205,8 @@ a:hover {
 		margin: 15px;
 	}
 	img {
-		width: 200px;
-		height: 125px;
+		width: 300px;
+		height: 187.5px;
 	}
 	.footer {
 		font-size: 17px;
@@ -229,23 +229,23 @@ a:hover {
 
 @media screen and (max-width: 520px) {
 	.name {
-		font-size: 20px;
+		font-size: 25px;
 	}
 	.bio-details {
 		font-size: 9px;
 		margin: 7px auto;
 	}
 	.header-container {
-		height: 50px;
+		height: 45px;
 	}
 	.profile-picture {
-		height: 70px;
-		width: 70px;
-		margin: 8px;
+		height: 65px;
+		width: 65px;
+		margin: 6px;
 	}
 	img {
-		width: 200px;
-		height: 125px;
+		width: 250px;
+		height: 156.25px;
 	}
 	.footer {
 		font-size: 12px;
