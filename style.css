@@ -159,3 +159,109 @@ a:visited {
 a:hover {
 	color: #17ebfa;
 }
+
+@media screen and (max-width: 1024px) {
+	.name {
+		font-size: 70px;
+	}
+	.bio-details {
+		font-size: 20px;
+		margin: 35px auto;
+	}
+	.header-container {
+		height: 100px;
+	}
+	.profile-picture {
+		height: 125px;
+		width: 125px;
+	}
+	img {
+		width: 300px;
+		height: 187.5px;
+	}
+	.footer {
+		font-size: 20px;
+		grid-template-columns: 40% 1fr 1fr 1fr 1fr;
+	}
+	.project-label {
+		font-size: 40px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.name {
+		font-size: 50px;
+	}
+	.bio-details {
+		font-size: 16px;
+		margin: 25px auto;
+	}
+	.header-container {
+		height: 80px;
+	}
+	.profile-picture {
+		height: 100px;
+		width: 100px;
+		margin: 15px;
+	}
+	img {
+		width: 200px;
+		height: 125px;
+	}
+	.footer {
+		font-size: 17px;
+		grid-template-columns: 20% 1fr 1fr 1fr 1fr;
+	}
+	.project-label {
+		font-size: 35px;
+	}
+	.project:hover > .linklist {
+		display: none;
+	}
+	.footer-two {
+		grid-column: 4;
+	}
+	.footer-three,
+	.footer-four {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 520px) {
+	.name {
+		font-size: 20px;
+	}
+	.bio-details {
+		font-size: 13px;
+		margin: 10px auto;
+	}
+	.header-container {
+		height: 50px;
+	}
+	.profile-picture {
+		height: 80px;
+		width: 80px;
+		margin: 10px;
+	}
+	img {
+		width: 150px;
+		height: 93.75px;
+	}
+	.footer {
+		font-size: 12px;
+		grid-template-columns: 1% 1fr 1fr 1fr 1fr;
+	}
+	.project-label {
+		font-size: 30px;
+	}
+	.project:hover > .linklist {
+		display: none;
+	}
+	.footer-two {
+		grid-column: 4;
+	}
+	.footer-three,
+	.footer-four {
+		display: none;
+	}
+}
