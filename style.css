@@ -1,8 +1,7 @@
 body {
-	background-color: #979493;
+	/* background-color: rgb(11, 91, 152); */
 	margin: 0 auto;
 	padding: 0;
-	/* overscroll-behavior: none; */
 	display: flex;
 	justify-content: space-between;
 	flex-direction: column;
@@ -12,7 +11,7 @@ body {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	height: 110px;
-	background-color: #51504f;
+	background-color: rgb(11, 91, 152);
 }
 .bio {
 	display: grid;
@@ -22,13 +21,13 @@ body {
 	font-family: 'Poiret One', sans-serif;
 	font-size: 25px;
 	margin: 0;
-	color: white;
+	color: rgb(236, 237, 230);
 	text-align: center;
 	padding-top: 38px;
 }
 .name {
 	font-family: 'Barlow Condensed', sans-serif;
-	color: white;
+	color: rgb(236, 237, 230);
 	font-size: 90px;
 	text-align: center;
 	margin: 0;
@@ -40,23 +39,82 @@ body {
 	grid-column: 3;
 }
 .profile-picture {
-	border-radius: 200px;
-	border: 3px solid white;
+	border-radius: 199px;
+	border: 3px solid rgb(236, 237, 230);
 	height: 150px;
 	width: 150px;
 	margin: 25px auto;
 }
-/* ^everything above is for the top banner */
-/* everything below is for the projects */
+/* nav */
+nav {
+	background-color: rgb(236, 237, 230);
+	padding: 1px 0px;
+}
+#top-nav {
+	color: white;
+	font-family: 'Barlow Condensed', sans-serif;
+	font-size: 25px;
+	list-style-type: none;
+	text-align: center;
+}
+li {
+	display: inline;
+	padding: 0 30px;
+	color: rgb(11, 91, 152);
+}
+/* about */
+.about {
+	background-color: rgb(11, 91, 152);
+	padding: 15px 0px;
+}
+.about-label {
+	font-family: 'Barlow Condensed', sans-serif;
+	font-size: 50px;
+	text-align: center;
+	margin: 0px;
+	color: rgb(236, 237, 230);
+}
+.about-details {
+	font-family: 'Poiret One', sans-serif;
+	animation: fade-in 1s ease-in;
+	color: rgb(236, 237, 230);
+	font-size: 18px;
+	padding: 0px 130px 20px 130px;
+	text-align: center;
+}
 
+/* skills */
+.skills {
+	background-color: rgb(11, 91, 152);
+	padding: 15px 0px;
+}
+.skills-label {
+	font-family: 'Barlow Condensed', sans-serif;
+	font-size: 50px;
+	text-align: center;
+	margin: 0px;
+	color: rgb(236, 237, 230);
+}
+.skills-details {
+	display: flex;
+	position: relative;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	width: 100%;
+	animation: fade-in 1s ease-in;
+	color: rgb(236, 237, 230);
+}
+
+/* projects */
 .project-container {
 	display: flex;
 	position: relative;
 	justify-content: center;
 	flex-wrap: wrap;
 	width: 100%;
-	margin-bottom: 25px;
 	animation: fade-in 1s ease-in;
+	background-color: rgb(236, 237, 230);
+	padding: 15px 0px;
 }
 .project-label-container {
 	height: 50px;
@@ -66,10 +124,12 @@ body {
 	font-size: 50px;
 	text-align: center;
 	margin: 0px;
+	color: rgb(11, 91, 152);
+	background-color: rgb(236, 237, 230);
 }
 .project {
 	transition: all 0.3s ease;
-	box-shadow: 6px 6px 8px white;
+	box-shadow: 6px 6px 8px rgb(11, 91, 152);
 	margin: 20px;
 	position: relative;
 }
@@ -79,12 +139,12 @@ body {
 	text-decoration: none;
 	padding: 15px;
 	margin: 10px 0px;
-	background: white;
-	color: black;
+	background: rgb(236, 237, 230);
+	color: rgb(11, 91, 152);
 }
 .singlelink:hover {
-	background: #51504f;
-	color: white;
+	background: rgb(11, 91, 152);
+	color: rgb(236, 237, 230);
 }
 .linklist {
 	position: absolute;
@@ -110,13 +170,71 @@ img {
 	height: 250px;
 	display: block;
 }
+/* contact */
+.contact {
+	padding: 15px 0px 25px 0px;
+	background-color: rgb(236, 237, 230);
+}
+.contact-label {
+	font-family: 'Barlow Condensed', sans-serif;
+	font-size: 50px;
+	text-align: center;
+	margin: 0px;
+	color: rgb(11, 91, 152);
+	padding-bottom: 15px;
+}
 
-/* ^everything above is for the projects */
-/* everything below is for the footer */
+label {
+	font-size: 22px;
+	color: rgb(236, 237, 230);
+}
+
+input[type='text'],
+select,
+textarea {
+	font-family: 'Poiret One', sans-serif;
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+	font-size: 20px;
+}
+
+.contact-form {
+	font-family: 'Poiret One', sans-serif;
+	border-radius: 5px;
+	background-color: rgb(11, 91, 152);
+	padding: 50px;
+	width: 500px;
+	margin: 0 auto;
+}
+
+input[type='submit'] {
+	font-family: 'Poiret One', sans-serif;
+	background-color: rgb(236, 237, 230);
+	font-size: 15px;
+	color: rgb(11, 91, 152);
+	padding: 10px;
+	border-radius: 6px;
+	cursor: pointer;
+}
+
+input[type='submit']:hover {
+	opacity: 0.7;
+	border: 1.5px solid rgb(236, 237, 230);
+	background-color: rgb(11, 91, 152);
+	color: rgb(236, 237, 230);
+}
+
+/* footer */
 
 footer {
-	background-color: #51504f;
-	color: white;
+	background-color: rgb(11, 91, 152);
+	color: rgb(236, 237, 230);
 	font-size: 25px;
 	display: grid;
 	grid-template-columns: 35% 1fr 1fr 1fr 35%;
@@ -159,6 +277,7 @@ a:hover {
 	color: #17ebfa;
 }
 
+/* media queries */
 @media screen and (max-width: 1024px) {
 	.name {
 		font-size: 70px;
@@ -192,7 +311,8 @@ a:hover {
 	}
 	.bio-details {
 		font-size: 16px;
-		margin: 25px auto;
+		margin: 1px auto;
+		padding-top: 16px;
 	}
 	.header-container {
 		height: 80px;
@@ -220,10 +340,12 @@ a:hover {
 @media screen and (max-width: 520px) {
 	.name {
 		font-size: 25px;
+		padding-top: 5px;
 	}
 	.bio-details {
 		font-size: 9px;
-		margin: 8px auto;
+		margin: 1px auto;
+		padding-top: 9px;
 	}
 	.header-container {
 		height: 45px;

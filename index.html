@@ -18,98 +18,187 @@
 	</head>
 
 	<body>
-		<div class="header-container">
-			<div class="bio">
-				<p class="bio-details">i'm a software engineer.<br />based in alexandria, va.
-				</p>
+		<main class="main-content">
+			<div class="header-container">
+				<div class="bio">
+					<p class="bio-details">
+						i'm a software engineer.<br />based in alexandria, va.
+					</p>
+				</div>
+				<div>
+					<h1 class="name">
+						ellison rio
+					</h1>
+				</div>
+				<div class="picture-container">
+					<img
+						class="profile-picture"
+						src="./profile-picture.png"
+						alt="profile picture"
+					/>
+				</div>
 			</div>
-			<div>
-				<h1 class="name">
-					ellison rio
-				</h1>					
-			</div>
-			<div class="picture-container">
-				<img
-					class="profile-picture"
-					src="./profile-picture.png"
-					alt="profile picture"
-				/>
-			</div>
-		</div>
-		<p class="project-label">my projects</p>
+			<nav>
+				<ul id="top-nav">
+					<a href="#about"><li class="nav-button">about</li></a>
+					<a href="#projects"><li class="nav-button">projects</li></a>
+					<a href="#skills"><li class="nav-button">skills</li></a>
+					<a href="#contact-info"><li class="nav-button">contact</li></a>
+				</ul>
+			</nav>
 
-		<div class="project-container">
-			<div class="project single">
-				<div class="linklist">
-					<a
-						href="https://ellisonr.github.io/the-office-project-one/"
-						target="_blank"
-						rel="noopener noreferer"
-						class="singlelink"
-						>view deployed
-					</a>
-					<a
-						href="https://github.com/ellisonr/the-office-project-one"
-						target="_blank"
-						rel="noopener noreferer"
-						class="singlelink"
-						>view repo
-					</a>
+			<span class="anchor" id="about"></span>
+			<section class="about" id="section1">
+				<h3 class="about-label">a little bit about me</h3>
+				<p class="about-details">
+					"I am a self-motivated, adaptable, and solutions-driven software
+					engineer who has a passion for advocating for clients to achieve
+					their mission through collaboration and efficiency. I bring
+					positivity to each opportunity. Through two battles and victories
+					over cancer, I have shown both grit and grace through adversity."
+				</p>
+			</section>
+
+			<span class="anchor" id="projects"></span>
+			<section class="projects" id="section3">
+				<h3 class="project-label">my projects</h3>
+				<div class="project-container">
+					<div class="project single">
+						<div class="linklist">
+							<a
+								href="https://ellisonr.github.io/the-office-project-one/"
+								target="_blank"
+								rel="noopener noreferer"
+								class="singlelink"
+								>view deployed
+							</a>
+							<a
+								href="https://github.com/ellisonr/the-office-project-one"
+								target="_blank"
+								rel="noopener noreferer"
+								class="singlelink"
+								>view repo
+							</a>
+						</div>
+						<img
+							src="office-project-one.png"
+							alt="the office trivia screenshot"
+						/>
+					</div>
+					<div class="project single">
+						<div class="linklist">
+							<a
+								href="https://star-wars-helper.herokuapp.com/api/characters"
+								target="_blank"
+								rel="noopener noreferer"
+								class="singlelink"
+								>view deployed
+							</a>
+							<a
+								href="https://github.com/ellisonr/star-wars-helper"
+								target="_blank"
+								rel="noopener noreferer"
+								class="singlelink"
+								>view repo
+							</a>
+						</div>
+						<img
+							src="star-wars-helper-api.png"
+							alt="star wars helper api screenshot"
+						/>
+					</div>
+					<div class="project single">
+						<div class="linklist">
+							<a
+								href="http://nba-starting-five.surge.sh/"
+								target="_blank"
+								rel="noopener noreferer"
+								class="singlelink"
+								>view deployed
+							</a>
+							<a
+								href="https://nba-starting-five.herokuapp.com/api/players"
+								target="_blank"
+								rel="noopener noreferer"
+								class="singlelink"
+								>view backend
+							</a>
+							<a
+								href="https://github.com/ellisonr/api-nba-starting-five"
+								target="_blank"
+								rel="noopener noreferer"
+								class="singlelink"
+								>view repo
+							</a>
+						</div>
+						<img
+							src="nba-starting-five.png"
+							alt="nba starting five screenshot"
+						/>
+					</div>
 				</div>
-					<img
-						src="office-project-one.png"
-						alt="the office trivia screenshot"
-					/>
-			</div>
-			<div class="project single">
-				<div class="linklist">
-					<a
-						href="https://star-wars-helper.herokuapp.com/api/characters"							
-						target="_blank"
-						rel="noopener noreferer"
-						class="singlelink"
-						>view deployed
-					</a>
-					<a
-						href="https://github.com/ellisonr/star-wars-helper"
-						target="_blank"
-						rel="noopener noreferer"
-						class="singlelink"
-						>view repo
-					</a>
+			</section>
+
+			<span class="anchor" id="skills"></span>
+			<section class="skills" id="section2">
+				<div>
+					<h3 class="skills-label">my skills</h3>
+					<div class="skills-details">
+						<p><i class="fab fa-python"></i></p>
+						<p><i class="fab fa-html5"></i></p>
+						<p><i class="fab fa-css3"></i></p>
+						<p><i class="fab fa-js-square"></i></p>
+						<p><i class="fab fa-node"></i></p>
+						<p><i class="fab fa-react"></i></p>
+						<p><i class="fab fa-bootstrap"></i></p>
+						<p><i class="fab fa-sass"></i></p>
+					</div>
 				</div>
-					<img
-						src="star-wars-helper-api.png"
-						alt="star wars helper api screenshot"
-					/>
-				</div>
-			<div class="project single">
-				<div class="linklist">
-					<a
-						href="http://nba-starting-five.surge.sh/"
-						target="_blank"
-						rel="noopener noreferer"
-						class="singlelink"
-						>view deployed
-					</a>
-					<a
-						href="https://nba-starting-five.herokuapp.com/api/players"
-						target="_blank"
-						rel="noopener noreferer"
-						class="singlelink"
-						>view backend
-					</a>
-					<a
-						href="https://github.com/ellisonr/api-nba-starting-five"
-						target="_blank"
-						rel="noopener noreferer"
-						class="singlelink"
-						>view repo
-					</a>
-				</div>
-					<img src="nba-starting-five.png" alt="nba starting five screenshot" />
-				</div>
-			</div>
+			</section>
+
+			<span class="anchor" id="contact"></span>
+			<section class="contact" id="section4">
+				<h3 class="contact-label">contact me</h3>
+
+				<div class="contact-form">
+						<form action="https://formspree.io/rio.ellison@gmail.com" method="POST"></form>
+						  <label for="fname">first name</label>
+						  <input
+							 type="text"
+							 id="fname"
+							 name="firstname"
+							 placeholder="enter your first name"
+						  />
+		  
+						  <label for="lname">last name</label>
+						  <input
+							 type="text"
+							 id="lname"
+							 name="lastname"
+							 placeholder="enter your last name"
+						  />
+		  
+						  <label for="lname">e-mail</label>
+						  <input
+							 type="text"
+							 id="email"
+							 name="email"
+							 placeholder="enter your e-mail"
+						  />
+		  
+						  <label for="subject">subject</label>
+						  <textarea
+							 id="subject"
+							 name="subject"
+							 placeholder="what would you like to discuss?"
+							 style="height:150px"
+						  ></textarea>
+		  
+						  <input type="submit" value="Submit" />
+						</form>
+					 </div>
+
+			</section>
 		</main>
 
 		<footer>
@@ -128,11 +217,6 @@
 					><i class="fab fa-medium"></i
 				></a>
 			</div>
-			<!-- <div class="footer-four">
-				<a href="https://profiles.generalassemb.ly/profiles/ellison-rio"
-					>GA</a
-				>
-			</div> -->
 		</footer>
 		<script src="./main.js"></script>
 	</body>
