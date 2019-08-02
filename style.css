@@ -30,12 +30,12 @@ body {
 .name {
 	font-family: 'Barlow Condensed', sans-serif;
 	color: rgb(236, 237, 230);
-	font-size: 90px;
+	font-size: 95px;
 	text-align: center;
 	margin: 0;
 	display: grid;
 	grid-column: 2;
-	text-shadow: 2px 2px rgb(96, 93, 93);
+	text-shadow: 1.5px 1.5px rgb(96, 93, 93);
 }
 .picture-container {
 	display: grid;
@@ -56,7 +56,7 @@ nav {
 }
 li {
 	font-family: 'Barlow Condensed', sans-serif;
-	font-size: 35px;
+	font-size: 30px;
 	list-style-type: none;
 	display: inline;
 	padding: 0 30px;
@@ -76,11 +76,11 @@ li:hover {
 }
 .about-label {
 	font-family: 'Barlow Condensed', sans-serif;
-	font-size: 50px;
+	font-size: 52px;
 	text-align: center;
 	margin: 0px;
 	color: rgb(236, 237, 230);
-	text-shadow: 2px 2px rgb(96, 93, 93);
+	text-shadow: 1.5px 1.5px rgb(96, 93, 93);
 }
 .about-details {
 	font-family: 'Poiret One', sans-serif;
@@ -98,11 +98,11 @@ li:hover {
 }
 .skills-label {
 	font-family: 'Barlow Condensed', sans-serif;
-	font-size: 50px;
+	font-size: 52px;
 	text-align: center;
 	margin: 0px;
 	color: rgb(236, 237, 230);
-	text-shadow: 2px 2px rgb(96, 93, 93);
+	text-shadow: 1.5px 1.5px rgb(96, 93, 93);
 }
 .skills-details {
 	display: flex;
@@ -131,13 +131,13 @@ li:hover {
 }
 .project-label {
 	font-family: 'Barlow Condensed', sans-serif;
-	font-size: 50px;
+	font-size: 52px;
 	text-align: center;
 	margin: 0px;
 	color: rgb(19, 140, 154);
 	background-color: rgb(236, 237, 230);
 	padding: 15px;
-	text-shadow: 2px 2px rgb(96, 93, 93);
+	text-shadow: 1.5px 1.5px rgb(96, 93, 93);
 }
 .project {
 	transition: all 0.3s ease;
@@ -145,40 +145,38 @@ li:hover {
 	margin: 20px;
 	position: relative;
 }
+.link-container {
+	background: rgb(19, 140, 154);
+	padding: 6px;
+	text-align: center;
+	display: flex;
+	position: relative;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
 .singlelink,
 .singlelink:visited {
 	font-family: 'Poiret One', sans-serif;
 	text-decoration: none;
-	padding: 15px;
-	margin: 10px 0px;
-	background: rgb(236, 237, 230);
-	color: rgb(19, 140, 154);
+	color: rgb(236, 237, 230);
+	border: 1px solid rgb(236, 237, 230);
+	padding: 6px;
+	border-radius: 4px;
+	font-size: 16px;
 }
 .singlelink:hover {
-	background: rgb(19, 140, 154);
-	color: rgb(236, 237, 230);
+	color: rgb(19, 140, 154);
+	background: rgb(236, 237, 230);
 }
-.linklist {
-	position: absolute;
-	display: none;
-	background: rgba(117, 117, 117, 0.5);
-	width: 100%;
-	height: 100%;
-}
-.project:hover > .linklist {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
+
 .single:hover {
-	-webkit-transform: scale(1.1);
-	-ms-transform: scale(1.1);
-	transform: scale(1.1);
+	-webkit-transform: scale(1.04);
+	-ms-transform: scale(1.04);
+	transform: scale(1.04);
 }
 img {
-	width: 400px;
-	height: 250px;
+	width: 600px;
+	height: 375px;
 	display: block;
 }
 /* contact */
@@ -188,12 +186,12 @@ img {
 }
 .contact-label {
 	font-family: 'Barlow Condensed', sans-serif;
-	font-size: 50px;
+	font-size: 52px;
 	text-align: center;
 	margin: 0px;
 	color: rgb(19, 140, 154);
 	padding-bottom: 15px;
-	text-shadow: 2px 2px rgb(96, 93, 93);
+	text-shadow: 1.5px 1.5px rgb(96, 93, 93);
 }
 
 label {
@@ -206,7 +204,7 @@ textarea {
 	font-family: 'Poiret One', sans-serif;
 	width: 100%;
 	padding: 12px;
-	border: 1px solid #ccc;
+	border: 1.5px solid rgb(236, 237, 230);
 	border-radius: 6px;
 	box-sizing: border-box;
 	margin-top: 6px;
@@ -220,26 +218,31 @@ textarea {
 	border-radius: 5px;
 	background-color: rgb(19, 140, 154);
 	padding: 40px;
-	width: 500px;
+	width: 600px;
 	margin: 0 auto;
 	box-shadow: 6px 6px 8px rgb(96, 93, 93);
 }
 
 input[type='submit'] {
 	font-family: 'Poiret One', sans-serif;
-	background-color: rgb(236, 237, 230);
+	background-color: white;
 	font-size: 15px;
+	font-weight: bolder;
 	color: rgb(19, 140, 154);
 	padding: 10px;
-	border-radius: 6px;
+	border-radius: 4px;
 	cursor: pointer;
+	transition: all 0.3s ease;
 }
 
 input[type='submit']:hover {
 	opacity: 0.8;
-	border: 1.5px solid rgb(236, 237, 230);
+	border: 1.5px solid white;
 	background-color: rgb(19, 140, 154);
 	color: rgb(236, 237, 230);
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
 }
 
 /* footer */
@@ -304,6 +307,12 @@ a:visited {
 	.bio-details {
 		font-size: 20px;
 	}
+	.about-label,
+	.skills-label,
+	.project-label,
+	.contact-label {
+		font-size: 47px;
+	}
 	.header-container {
 		height: 85px;
 	}
@@ -312,8 +321,8 @@ a:visited {
 		width: 110px;
 	}
 	img {
-		width: 300px;
-		height: 187.5px;
+		width: 500px;
+		height: 312.5px;
 	}
 	li {
 		font-size: 25px;
@@ -326,6 +335,15 @@ a:visited {
 	}
 	.project-label {
 		font-size: 40px;
+	}
+	.link-container {
+		padding: 4px;
+	}
+	.singlelink,
+	.singlelink:visited {
+		padding: 4px;
+		font-size: 12px;
+		border-radius: 4px;
 	}
 }
 
@@ -341,12 +359,12 @@ a:visited {
 		height: 100px;
 	}
 	.profile-picture {
-		height: 100px;
-		width: 100px;
+		height: 80px;
+		width: 80px;
 	}
 	img {
-		width: 300px;
-		height: 187.5px;
+		width: 450px;
+		height: 281.25px;
 	}
 	li {
 		font-size: 25px;
@@ -354,6 +372,12 @@ a:visited {
 	.about-details {
 		padding: 0px 80px;
 		font-size: 19px;
+	}
+	.about-label,
+	.skills-label,
+	.project-label,
+	.contact-label {
+		font-size: 42px;
 	}
 	.footer {
 		font-size: 20px;
@@ -384,6 +408,15 @@ a:visited {
 	textarea {
 		font-size: 11px;
 	}
+	.link-container {
+		padding: 4px;
+	}
+	.singlelink,
+	.singlelink:visited {
+		padding: 4px;
+		font-size: 12px;
+		border-radius: 4px;
+	}
 }
 
 @media screen and (max-width: 768px) {
@@ -400,8 +433,8 @@ a:visited {
 		height: 80px;
 	}
 	.profile-picture {
-		height: 100px;
-		width: 100px;
+		height: 95px;
+		width: 95px;
 		margin: 15px;
 	}
 	img {
@@ -422,7 +455,7 @@ a:visited {
 	.skills-label,
 	.project-label,
 	.contact-label {
-		font-size: 35px;
+		font-size: 37px;
 	}
 	.project:hover > .linklist {
 		display: none;
@@ -450,6 +483,15 @@ a:visited {
 	textarea {
 		font-size: 11px;
 	}
+	.link-container {
+		padding: 1px;
+	}
+	.singlelink,
+	.singlelink:visited {
+		padding: 1px;
+		font-size: 8px;
+		border-radius: 2px;
+	}
 }
 
 @media screen and (max-width: 520px) {
@@ -466,13 +508,13 @@ a:visited {
 		height: 45px;
 	}
 	.profile-picture {
-		height: 65px;
-		width: 65px;
+		height: 85px;
+		width: 85px;
 		margin: 6px;
 	}
 	img {
-		width: 250px;
-		height: 156.25px;
+		width: 300px;
+		height: 187.5px;
 	}
 	li {
 		display: block;
@@ -488,7 +530,7 @@ a:visited {
 	.skills-label,
 	.project-label,
 	.contact-label {
-		font-size: 22px;
+		font-size: 24px;
 	}
 	.project:hover > .linklist {
 		display: none;
@@ -515,5 +557,14 @@ a:visited {
 	}
 	textarea {
 		font-size: 8px;
+	}
+	.link-container {
+		padding: 3px 1px;
+	}
+	.singlelink,
+	.singlelink:visited {
+		padding: 1px;
+		font-size: 6px;
+		border-radius: 2px;
 	}
 }
