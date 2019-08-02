@@ -376,13 +376,47 @@ a:visited {
 		width: 250px;
 		height: 156.25px;
 	}
+	#top-nav {
+		font-size: 17px;
+	}
+	.about-details {
+		font-size: 10px;
+		padding: 0px 15px;
+		text-align: center;
+		line-height: 13px;
+	}
 	.footer {
 		font-size: 12px;
 	}
-	.project-label {
+	.about-label,
+	.skills-label,
+	.project-label,
+	.contact-label {
 		font-size: 30px;
 	}
 	.project:hover > .linklist {
 		display: none;
+	}
+	.contact-form {
+		font-family: 'Poiret One', sans-serif;
+		border-radius: 5px;
+		background-color: rgb(19, 140, 154);
+		padding: 10px;
+		width: 200px;
+		margin: 0 auto;
+	}
+
+	input[type='submit'],
+	input[type='text'] {
+		font-size: 10px;
+	}
+	input[type='submit'] {
+		padding: 5px;
+	}
+	label {
+		font-size: 14px;
+	}
+	textarea {
+		font-size: 14px;
 	}
 }
