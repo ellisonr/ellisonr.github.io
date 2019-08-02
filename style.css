@@ -296,24 +296,30 @@ a:visited {
 }
 
 /* media queries */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1220px) {
 	.name {
 		font-size: 70px;
+		padding-top: 8px;
 	}
 	.bio-details {
 		font-size: 20px;
-		margin: 35px auto;
 	}
 	.header-container {
-		height: 100px;
+		height: 85px;
 	}
 	.profile-picture {
-		height: 125px;
-		width: 125px;
+		height: 110px;
+		width: 110px;
 	}
 	img {
 		width: 300px;
 		height: 187.5px;
+	}
+	li {
+		font-size: 25px;
+	}
+	.about-details {
+		padding: 0px 120px;
 	}
 	.footer {
 		font-size: 20px;
@@ -323,15 +329,72 @@ a:visited {
 	}
 }
 
+@media screen and (max-width: 1024px) {
+	.name {
+		font-size: 70px;
+	}
+	.bio-details {
+		font-size: 20px;
+		margin: 1px auto;
+	}
+	.header-container {
+		height: 100px;
+	}
+	.profile-picture {
+		height: 100px;
+		width: 100px;
+	}
+	img {
+		width: 300px;
+		height: 187.5px;
+	}
+	li {
+		font-size: 25px;
+	}
+	.about-details {
+		padding: 0px 80px;
+		font-size: 19px;
+	}
+	.footer {
+		font-size: 20px;
+	}
+	.project-label {
+		font-size: 40px;
+	}
+	.contact {
+		padding-bottom: 25px;
+	}
+	.contact-form {
+		padding: 10px;
+		width: 475px;
+	}
+	input[type='text'],
+	textarea {
+		padding-bottom: 10px;
+		margin-bottom: 5px;
+	}
+	input[type='submit'],
+	input[type='text'] {
+		font-size: 11px;
+		padding: 7px;
+	}
+	label {
+		font-size: 15px;
+	}
+	textarea {
+		font-size: 11px;
+	}
+}
+
 @media screen and (max-width: 768px) {
 	.name {
 		font-size: 50px;
 		padding-top: 10px;
 	}
 	.bio-details {
-		font-size: 16px;
+		font-size: 13px;
 		margin: 1px auto;
-		padding-top: 25px;
+		padding-top: 30px;
 	}
 	.header-container {
 		height: 80px;
@@ -349,7 +412,12 @@ a:visited {
 		display: block;
 		font-size: 25px;
 	}
-
+	.about-details {
+		font-size: 14px;
+		padding: 0px 35px;
+		text-align: center;
+		line-height: 17px;
+	}
 	.about-label,
 	.skills-label,
 	.project-label,
@@ -358,6 +426,29 @@ a:visited {
 	}
 	.project:hover > .linklist {
 		display: none;
+	}
+	.contact {
+		padding-bottom: 25px;
+	}
+	.contact-form {
+		padding: 10px;
+		width: 375px;
+	}
+	input[type='text'],
+	textarea {
+		padding-bottom: 10px;
+		margin-bottom: 5px;
+	}
+	input[type='submit'],
+	input[type='text'] {
+		font-size: 11px;
+		padding: 7px;
+	}
+	label {
+		font-size: 15px;
+	}
+	textarea {
+		font-size: 11px;
 	}
 }
 
