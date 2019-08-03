@@ -159,16 +159,16 @@ li:hover {
 	font-family: 'Poiret One', sans-serif;
 	text-decoration: none;
 	background-color: rgb(236, 237, 230);
+	color: rgb(19, 140, 154);
 	border: 1px solid rgb(236, 237, 230);
 	padding: 6px;
 	border-radius: 4px;
 	font-size: 16px;
-	color: rgb(19, 140, 154);
 }
-/* .singlelink:hover {
-	color: rgb(19, 140, 154);
-	background-color: rgb(236, 237, 230);
-} */
+.singlelink:hover {
+	background-color: rgb(19, 140, 154);
+	color: rgb(236, 237, 230);
+}
 
 .single:hover {
 	-webkit-transform: scale(1.04);
@@ -458,9 +458,6 @@ a:visited {
 	.contact-label {
 		font-size: 37px;
 	}
-	.project:hover > .linklist {
-		display: none;
-	}
 	.contact {
 		padding-bottom: 25px;
 	}
@@ -532,9 +529,6 @@ a:visited {
 	.project-label,
 	.contact-label {
 		font-size: 24px;
-	}
-	.project:hover > .linklist {
-		display: none;
 	}
 	.contact {
 		padding-bottom: 25px;
