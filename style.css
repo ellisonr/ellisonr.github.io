@@ -1,6 +1,9 @@
 * {
 	animation: fade-in 0.5s ease-in;
 }
+html {
+	scroll-behavior: smooth;
+}
 body {
 	margin: 0 auto;
 	padding: 0;
